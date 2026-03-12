@@ -1,4 +1,4 @@
-local service = game:GetService("Gay")
+local service = game:FindFirstChild("Gay")
 if service then
   print("Gay Exists W Speed")
 else
@@ -7,3 +7,4 @@ else
   newgay.Parent = game
   print("Sucessfuly Febypassed")
   -- fake script boiii
+end
