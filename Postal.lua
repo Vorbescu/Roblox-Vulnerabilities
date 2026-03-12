@@ -1,5 +1,5 @@
-local gay = game:GetService("Gay")
-if gay then
+local service = game:GetService("Gay")
+if service then
   print("Gay Exists W Speed")
 else
   local newgay = Instance.new("Configuration")
